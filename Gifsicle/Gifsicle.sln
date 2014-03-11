@@ -4,16 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.30219.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gifsicle", "Gifsicle.vcxproj", "{C022CDB1-6D2F-4110-B4B4-61F4F4A2EC81}"
-	ProjectSection(ProjectDependencies) = postProject
-		{25B2E211-B2E7-48CA-85B4-195136029246} = {25B2E211-B2E7-48CA-85B4-195136029246}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCDF", "..\LCDF\LCDF.vcxproj", "{22505116-699E-4BF0-A263-8BFB327D20BE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCDFGIF", "..\LCDFGIF\LCDFGIF.vcxproj", "{25B2E211-B2E7-48CA-85B4-195136029246}"
-	ProjectSection(ProjectDependencies) = postProject
-		{22505116-699E-4BF0-A263-8BFB327D20BE} = {22505116-699E-4BF0-A263-8BFB327D20BE}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +15,6 @@ Global
 		{C022CDB1-6D2F-4110-B4B4-61F4F4A2EC81}.Debug|Win32.Build.0 = Debug|Win32
 		{C022CDB1-6D2F-4110-B4B4-61F4F4A2EC81}.Release|Win32.ActiveCfg = Release|Win32
 		{C022CDB1-6D2F-4110-B4B4-61F4F4A2EC81}.Release|Win32.Build.0 = Release|Win32
-		{22505116-699E-4BF0-A263-8BFB327D20BE}.Debug|Win32.ActiveCfg = Debug|Win32
-		{22505116-699E-4BF0-A263-8BFB327D20BE}.Debug|Win32.Build.0 = Debug|Win32
-		{22505116-699E-4BF0-A263-8BFB327D20BE}.Release|Win32.ActiveCfg = Release|Win32
-		{22505116-699E-4BF0-A263-8BFB327D20BE}.Release|Win32.Build.0 = Release|Win32
-		{25B2E211-B2E7-48CA-85B4-195136029246}.Debug|Win32.ActiveCfg = Debug|Win32
-		{25B2E211-B2E7-48CA-85B4-195136029246}.Debug|Win32.Build.0 = Debug|Win32
-		{25B2E211-B2E7-48CA-85B4-195136029246}.Release|Win32.ActiveCfg = Release|Win32
-		{25B2E211-B2E7-48CA-85B4-195136029246}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
